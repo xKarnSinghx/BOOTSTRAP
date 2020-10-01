@@ -1,45 +1,124 @@
-<!-- KARN KUMAR SINGH  ROLL NO=1906181-->
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="this is my page">
-    <title>Karn</title>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>BOOTSTRAP</title>
     <style>
-  .jumbotron{
-    text-align : center;
-    font-size: 2rem;
-            padding: 15px;
-            background-color: rgb(9, 255, 0);  
-  }
-  html {
-    background-color: #5fdcf1; 
+   body {
+            font-family: Arial, Helvetica, sans-serif;
+            
+            font-size: 17px;
+        }
+        html {
+            background-color: #5fdcf1;
+        }
+        
+.nav-item dropdown{
+  position: relative;
+  display: inline-block;
 }
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 60px;
-    font-size: 17px;
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
-.display-4{
-    background:#0fda0f;
-    text-indent:3em;
-    
+
+.dropdown-menu a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
 }
+
+.ddropdown-menu a:hover {background-color: #ddd;}
+
+.nav-item dropdown:hover .dropdown-menu {display: block;}
+
     </style>
-</head>
-<b<div class="jumbotron">
-    <h1 class="display-4">Hello, world!</h1>
-    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-    <hr class="my-4">
-    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-  </div>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
- 
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+      <a class="navbar-brand" href="#"><img src="https://cdn1.vectorstock.com/i/1000x1000/36/45/medical-logo-medical-center-logo-vector-26443645.jpg" height="50" width="50"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
     
-</body>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" style="background-color:#5fdcf1" >
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#karn">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Department
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#k">Robotic Surgery</a>
+              <a class="dropdown-item" href="#k1">Neuroscience</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#k2">Cancer</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#karn1">Contact</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit" >Search</button>
+        </form>
+      </div>
+    </nav>  
+
+<div class="jumbotron" style="background-image: url(https://arm-media.coloradowomenshealth.com/photo-UCARM-woman-doctor-clipboard.jpg); background-size: 100% 120%;">
+  <h4>BEST MEDICAL CENTER</h4><h1 class="display-4">MedCare</h1>
+  <p class="lead">Bringing health to <strong>LIFE</strong> for the whole family</p>
+  <hr class="my-4"><br><br><br>
+  <p>Our mission is to provide healthcare of international standards within the reach of every individual.<br>We provide total healthcare solution and are strongly committed to make your life easy and happy.</p>
+  <br><br><br>
+  <a class="btn btn-primary btn-lg" href="#" role="button">BOOK APPOINTMENT</a>
+</div>
+<div id="karn" style="  background-color: #5fdcf1;"><h1 style="text-align: center;"><strong>About Us</strong></h1></div><br>
+<div>
+  MedCare is India’s one of the most advanced tertiary care facilities. As the flagship social initiative of the XYZ Group headed by Dr. XYZ, the hospital is designed to raise India's global standing as a healthcare hub, with emphasis on excellence in clinical services, diagnostic facilities and research.
+<br><div style="color: rgb(14, 177, 241);"><h4 >Our Mission</h4></div>
+To be an institution that offers comprehensive quality healthcare services under one roof through transparent patient-centric care ensuring patient safety, privacy and dignity. An institution where Every Life Indeed Matters.  </div>
+<div id="karn" style="  background-color: #5fdcf1;"><h1 style="text-align: center;"><strong>Department</strong></h1></div><br>
+ <br><div style="color: rgb(14, 177, 241);" id="k"><h4 >Robotic Surgery</h4></div>
+ <h5>Services</h5><br>
+ The Centre besides Minimally-Invasive Surgery (MIS) offers Robotic Surgery, a breakthrough surgical technique which is an effective, minimally-invasive alternative to both open and laparoscopic surgery.
+ <br><div style="color: rgb(14, 177, 241);" id="k1"><h4 >Cancer</h4></div>
+ <h5>Services</h5><br>
+
+Cancer is potentially curable if diagnosed and treated in early stages. Even in late stages where cure may not be possible patient can be treated to have meaningful life with disease. Correct diagnosis and management is of paramount importance.
+
+The Centre for Cancer brings together the expertise within the hospital to provide comprehensive and coordinated care for patients with all types of cancers, including solid tumours and blood related diseases. We offer broad scope of cancer services, ranging from public education, screening and diagnosis, to treatment, pain management and palliative care.
+
+The range of care provided is organised into a number of patient-centred clinics, which includes Radiation Therapy and Chemotherapy.
+ <br><div style="color: rgb(14, 177, 241);" id="k2"><h4 >Neuroscience</h4></div>
+ <h5>Services</h5><br>
+ The centre provides cutting-edge care in neurology, neurosurgery and interventional neuroradiology. The range of care provided includes management of
+
+ Alzheimer's Disease,Spinal Dysraphism and Parkinson's Disease.
+</div>
+<div id="karn1" style="  background-color: #5fdcf1;"><h1 style="text-align: center;"><strong>Contact</strong></h1></div><br>
+<div style="text-align: center;">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_BdAWxN2gjVUoJh_96vpwlFeHvGfDAQoGVA&usqp=CAU" height="50" width="50">:+91 9109421222<br>
+ </div>
+ 
+ 
+     </body>
 </html>
